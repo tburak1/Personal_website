@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
-    
 }
 
 .heading {
@@ -24,14 +23,11 @@ body {
     height: 100%;
     background: url(/src/background.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
 }
 
 .media{
-    position: absolute;
-    top: 130%;
-    left: 50%;
-    transform: translate(-53%, -50%);
+    display: flex;
+    justify-content: center;
 }
 
 li {
@@ -41,20 +37,32 @@ li {
     font-size: 30px;
     padding: 20px 20px;
     color: #fff;
-    
+    transform: scale(1);
+    transition: transform 0.2s ease-in;
 }
 
 li:hover {
-    color: #292929;
-    border: .5px solid white;
-    transition: 1s;
-    text-decoration: none;
-    
+    transform: scale(1.5);
+}
+
+i[class="fa fa-twitter"]:hover{
+    color:  #00acee;
+}
+
+i[class="fa fa-linkedin"]:hover{
+    color:  #0e76a8;
+}
+
+i[class="fa fa-paper-plane"]:hover{
+    color: #706f6f;
+}
+
+i[class="fa fa-file-pdf-o"]:hover{
+    color: red;
+}
+
+i[class="fa fa-github"]:hover{
+    color: white;
 }
 a { color:white }
-
-
 a:visited { text-decoration: none; color:white; }
-a:hover { text-decoration: none; color:white; }
-a:focus { text-decoration: none; color:white; }
-a:hover, a:active { text-decoration: none; color:white }
