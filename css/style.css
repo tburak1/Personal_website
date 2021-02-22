@@ -25,6 +25,11 @@ body {
     background-size: cover;
 }
 
+
+.text-slider-items { 
+    display: none; 
+} 
+
 .media{
     display: flex;
     justify-content: center;
