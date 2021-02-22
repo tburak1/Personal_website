@@ -62,8 +62,8 @@ i[class="fa fa-paper-plane"]:hover{
     color: lightskyblue;
 }
 
-i[class="fa fa-file-pdf-o"]:hover{
-    color: red;
+i[class="fa fa-id-badge"]:hover{
+    color: #58d68d;
 }
 
 i[class="fa fa-github"]:hover{
