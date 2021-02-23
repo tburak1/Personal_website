@@ -16,6 +16,12 @@ Portfolio wesite
   - Add new features (Not decided yet)
   - Update REAM.md
 
+#### Resources
+  - <a href="https://tsafaelmali.medium.com/css-attribute-selector-nedir-t%C3%BCrleri-nelerdir-ed35fa6bc370">Attribute selectors</a>
+  - <a href="https://medium.com/kodcular/css-transition-nedir-b6139dd9b37c">CSS — Transition</a>
+  - <a href="https://github.com/mattboldt/typed.js">Typed.js</a>
+  - <a href="https://github.com/VincentGarreau/particles.js">Particles.js</a>
+
 ### License
 
 <a href="https://github.com/tburakozdemir/Personal_Website/blob/master/LICENSE">MIT license</a>
