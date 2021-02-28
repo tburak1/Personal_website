@@ -9,14 +9,17 @@ body {
     top: 30%;
     width: 100%;
 }
+
 .heading h2 {
     color:white;
     font-size: 60px;
 }
+
 .heading h3 {
     color: white;
     font-size: 30px;
 }
+
 #particles-js {
     position: absolute;
     width: 100%;
@@ -24,7 +27,6 @@ body {
     background: url(/src/background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
-
 
 .text-slider-items { 
     display: none; 
@@ -69,5 +71,7 @@ i[class="fa fa-id-badge"]:hover{
 i[class="fa fa-github"]:hover{
     color: white;
 }
+
 a { color:white }
+
 a:visited { text-decoration: none; color:white; }
